@@ -5,6 +5,7 @@ import "./App.css";
 //components
 import {Form} from './Form'
 import{SmurfList} from './SmurfList'
+import {DeleteForm} from './RemoveForm'
 
 function App() {
   const [smurf,setSmurf] = useState([]);
@@ -28,6 +29,7 @@ function App() {
       <h2>Just fill out this form to become a smurf.</h2>
       <Form/>
       <SmurfList/>
+      <DeleteForm/>
     </div>
     </smurfContext.Provider>
   );
