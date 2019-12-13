@@ -23,8 +23,22 @@ In this challenge, you are to build a Smurfs village utilizing context or Redux 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What problem does the context API help solve?
+
+context api solves the problem of passing props down the app tree. you can provide a value at the top of the tree and call on that value anywhere down the line. 
+
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+
+actions are the way we give data to the store.
+
+reducers determine how the state changes in response to the actions we send to the store.
+
+the store is where your state is stored you can access state and up date it from the store.
+
+the store is the single source of truth because it holds the state for our entire app tree.
+
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+
+
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
 
